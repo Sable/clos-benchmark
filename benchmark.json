@@ -1,0 +1,17 @@
+{
+   "type": "benchmark",
+   "name":"clos",
+   "short-name":"clos",
+   "description":"Compute the transitive closure of a directed graph",
+   "version":"1.0.0",
+   "input-size":{
+      "small":1,
+      "medium":3,
+      "large": 10
+   },
+   "expected-output": {
+      "small": 43947,
+      "medium": 43947,
+      "large": 43947
+   }
+}
