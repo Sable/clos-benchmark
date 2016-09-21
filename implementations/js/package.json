@@ -1,0 +1,25 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "Wu-Wei Implementation template for JavaScript. For explanations on how to modify the template to use as a new implementation for an existing benchmark, see the corresponding [guide](https://github.com/Sable/wu-wei-handbook/blob/master/create-new-implementation.md#create-a-new-language-implementation-for-an-existing-benchmark).",
+  "main": "runner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sable/clos-benchmark.git"
+  },
+  "author": "Erick Lavoie",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Sable/clos-benchmark/issues"
+  },
+  "homepage": "https://github.com/Sable/clos-benchmark",
+  "dependencies": {
+    "ndarray": "^1.0.18",
+    "cwise": "^1.0.9",
+    "ndarray-gemm": "^1.0.0",
+    "ndarray-ops": "^1.2.2"
+  }
+}
